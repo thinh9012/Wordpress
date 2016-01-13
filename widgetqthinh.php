@@ -1,13 +1,13 @@
 <?php 
-		/**
- * Plugin Name: widgetQThinh
- * Plugin URI: ...
- * Description: Đây là plugin đầu tiên mà tôi viết dành riêng cho WordPress, chỉ để học tập mà thôi.
- * Version: 1.0
- * Author: KengLife
- * Author URI: quocthinh.site88.net
- * License: GPLv2 or later
- */
+	/**
+	* Plugin Name: widgetQThinh
+	* Plugin URI: ...
+	* Description: Đây là plugin đầu tiên mà tôi viết dành riêng cho WordPress, chỉ để học tập mà thôi.
+	* Version: 1.0
+	* Author: KengLife
+	* Author URI: quocthinh.site88.net
+	* License: GPLv2 or later
+	*/
 ?>
 
 <?php
