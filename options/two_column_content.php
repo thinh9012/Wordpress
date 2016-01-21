@@ -108,15 +108,17 @@
 			echo $before_widget;
 			
 			// Display content in Widget
-			$my_query = quocthinh_get_post_categoryID($instance['current_category_1'], $instance['number_post_1']);
-			if ($my_query->have_posts())
+			$my_query_1 = quocthinh_get_post_categoryID($instance['current_category_1'], $instance['number_post_1']);
+			$my_query_2 = quocthinh_get_post_categoryID($instance['current_category_2'], $instance['number_post_2']);
+			// Code display
+			/*if ($my_query->have_posts())
 			{
-				while($my_query->have_posts()) : $my_query->the_post();
+				while($my_query_1->have_posts()) : $my_query->the_post();
 					?>
 					<p><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
 					<?php
 				endwhile;
-			}
+			}*/
 			
 			// End content Widget
 			echo $after_widget;
